@@ -15,6 +15,10 @@ app.get("/order", (req, res) => {
   res.send("This is order Page");
 })
 
+app.get("/product", (req, res) => {
+  res.send("This is Bill Pay Page");
+})
+
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`)
 })
